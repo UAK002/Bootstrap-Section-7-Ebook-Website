@@ -13,12 +13,12 @@ $navbar-dark-color: #fff;
 $navbar-dark-hover-color: $secondary;
 
 // Buttons
-$border-radius: 50px;
+$button-radius: 50px;
 $button-padding-x: 30px;
 $button-padding-y: 10px;
-$btn-border-radius: $border-radius;
-$btn-border-radius-sm: $border-radius;
-$btn-border-radius-lg: $border-radius;
+$btn-border-radius: $button-radius;
+$btn-border-radius-sm: $button-radius;
+$btn-border-radius-lg: $button-radius;
 $btn-padding-x: $button-padding-x;
 $btn-padding-x-sm: $button-padding-x;
 $btn-padding-x-lg: $button-padding-x;
@@ -46,5 +46,8 @@ $line-height-base: 1.7;
 
 // Heading margin bottom
 $headings-margin-bottom: $spacer * 1;
+
+// -ve Margins
+$enable-negative-margins: true;
 
 @import '../node_modules/bootstrap/scss/bootstrap';
