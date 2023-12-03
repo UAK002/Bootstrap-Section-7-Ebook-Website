@@ -23,6 +23,14 @@
   background-size: cover;
 }
 
+.map iframe {
+  top: 0;
+  left: 0;
+  height: 400px;
+  width: 100%;
+  border: none;
+}
+
 @media screen and (max-width: 1000px) {
   .hero .image-container {
     display: flex;
