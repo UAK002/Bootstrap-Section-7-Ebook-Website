@@ -51,4 +51,7 @@ $line-height-base: 1.7;
 // Headings Margin bottom
 $headings-margin-bottom: $spacer * 1;
 
+// negative margin
+$enable-negative-margins: true;
+
 @import '../node_modules/bootstrap/scss/bootstrap';
